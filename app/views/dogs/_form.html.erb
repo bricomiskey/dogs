@@ -14,32 +14,39 @@
   <div class="field">
     <%= f.label :name %><br>
     <%= f.text_field :name %>
+  </div>
+
   <div class='field'>
     <%= f.label :age %><br>
     <%= f.number_field :age %>
-     <div class='field'>
+  </div>
+    
+  <div class='field'>
     <%= f.label :date %><br>
     <%= f.number_field :date %>
-    <div class='field'>
+  </div>
+    
+  <div class='field'>
     <%= f.label :color %><br>
     <%= f.text_field :color %>
-    <div class='field'>
+  </div>
+    
+  <div class='field'>
     <%= f.label :temperament %><br>
     <%= f.text_field :temperament %>
-    <div class='field'>
+  </div>
+    
+  <div class='field'>
     <%= f.label :fixed %><br>
     <%= f.text_field :fixed %>
-      <div class="field">
+  </div>
+    
+  <div class="field">
     <%= f.label :picture %>
     <%= f.hidden_field(:picture_cache) %>
     <%= f.file_field(:picture) %>
   </div>
-  </div>
-  </div>
-  </div>
-  </div>
-  </div>
-  </div>
+  
   <div class="actions">
     <%= f.submit %>
   </div>
