@@ -18,7 +18,6 @@ ActiveRecord::Schema.define(version: 20150418211804) do
     t.datetime "created_at",  null: false
     t.datetime "updated_at",  null: false
     t.integer  "age"
-    t.date     "date"
     t.text     "color"
     t.text     "temperament"
     t.text     "fixed"
